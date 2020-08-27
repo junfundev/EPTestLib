@@ -4,7 +4,7 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire
-  - EPTestLib (from `Lib/`)
+  - EPTestLib (from `./`)
 
 SPEC REPOS:
   trunk:
@@ -12,12 +12,12 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   EPTestLib:
-    :path: Lib/
+    :path: "./"
 
 SPEC CHECKSUMS:
   Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
   EPTestLib: 9a9ffbb86f247a1bae18ae18f8f7a703a6f4e4a7
 
-PODFILE CHECKSUM: 300bc9e9a4cb1cf44dc87b62047ed44685b47058
+PODFILE CHECKSUM: 82ec4193e87d086cfd0426cfe9f6e1b0054dc42c
 
 COCOAPODS: 1.9.3

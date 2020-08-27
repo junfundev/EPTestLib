@@ -36,8 +36,8 @@
 		9FED70D1E1FBFB80E974E999EF732258 /* RetryPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C44EFF4AE1CC95C361F6A007EDBD6E7 /* RetryPolicy.swift */; };
 		A738C2A39C0150BBA7EA5EC19B95F03E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B079F294DA5D9A879E6D53A91F51A1E /* CFNetwork.framework */; };
 		ABA85887A41495358C83CE3F3030EDEA /* CachedResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4D233027C8491F55B2473FCDA12389 /* CachedResponseHandler.swift */; };
-		AD39B039DCA3E1F5E8ED2D0B874807EB /* EPTestLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 483AF4A6FC41E5164B1B0817408D8687 /* EPTestLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE055B2DA9F3F1F9AEF5F03966F6EFCB /* EPTestLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE17F610C06511D4A8B7706E094ED6AB /* EPTestLib-dummy.m */; };
+		AD39B039DCA3E1F5E8ED2D0B874807EB /* EPTestLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A92179DC53A5B0EBDC21260DE7BD6419 /* EPTestLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE055B2DA9F3F1F9AEF5F03966F6EFCB /* EPTestLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D85779111B277CE28EF7DFDF09AE22F0 /* EPTestLib-dummy.m */; };
 		AE9058C2D209A90698827720707CB778 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222DAEF0D819F359AFCFF3D4F927E8A7 /* Foundation.framework */; };
 		C1C5B050B55C15103ABC81769551A283 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F2B77F50C8E86FDD27C5A573013C07 /* Response.swift */; };
 		C1F1DB6A9CBDE584D09BA1613AAD4F9D /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEF4837C47DFB74B73C8B82A591E94C /* Alamofire.swift */; };
@@ -48,7 +48,7 @@
 		D31FC7FDD450C4CDD633ECBAD27C6221 /* URLEncodedFormEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F2B90B6F80D8F30747B3E178F5528F /* URLEncodedFormEncoder.swift */; };
 		D5EAAFB6FAD77A8F0699345149BA3CBB /* URLRequest+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062C7841BFC1EEBD8A094A3CA60AEADA /* URLRequest+Alamofire.swift */; };
 		DC627AFC5B585686898B014184AFCABD /* AuthenticationInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DA36ADD8B0E94CE139C28448821E13 /* AuthenticationInterceptor.swift */; };
-		DDAD63C77F643F93E3F2D97E2C71E8FB /* EPTestLibHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711B211845396DA22C7E9D9B8958E5A9 /* EPTestLibHeader.swift */; };
+		DDAD63C77F643F93E3F2D97E2C71E8FB /* EPTestLibHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BF1F94A156275ADAE8A93680337D25 /* EPTestLibHeader.swift */; };
 		EDC93BD7B9262119AE145E4C7A9D0212 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B14ACFFB6A91762B582B46A3466A3F /* Request.swift */; };
 		F0F3224FF592F9BA2A044A2FC2BD4CCD /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20097F794E1A1791AB97EBE230264E61 /* Validation.swift */; };
 		F6B16DC8CADA07287C6A372AC8AD787C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222DAEF0D819F359AFCFF3D4F927E8A7 /* Foundation.framework */; };
@@ -81,34 +81,30 @@
 		222DAEF0D819F359AFCFF3D4F927E8A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		29EBC286A9BAE2611EFC71F7C9FB60B8 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
 		2B0F05A3DBDE8E8AD6A8511F035D63D3 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		330BE6F5E20C88D9EB05B940AD3E1144 /* EPTestLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EPTestLib.release.xcconfig; sourceTree = "<group>"; };
 		333DAB6EC98A071AAD9A29C41818F346 /* HTTPHeaders.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPHeaders.swift; path = Source/HTTPHeaders.swift; sourceTree = "<group>"; };
 		349B2325F6647FEE3C9209201FF5D4C2 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
 		398821B57C81308E0DB120A25F9DD8EC /* Pods-EPTestLib-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EPTestLib-acknowledgements.markdown"; sourceTree = "<group>"; };
 		401A0C3C3516540407583753D10DEB2B /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
-		426EEB68E95908B8A0A9AC5D2425FE1C /* EPTestLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EPTestLib.modulemap; sourceTree = "<group>"; };
 		4388F96485F322CF010F9CA6AF089C46 /* HTTPMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPMethod.swift; path = Source/HTTPMethod.swift; sourceTree = "<group>"; };
 		449A288BB660EE8E66896501139DA02E /* Pods-EPTestLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EPTestLib-Info.plist"; sourceTree = "<group>"; };
 		4591D5844289F02F52985F30FFDA6BB5 /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = Source/Session.swift; sourceTree = "<group>"; };
-		483AF4A6FC41E5164B1B0817408D8687 /* EPTestLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EPTestLib-umbrella.h"; sourceTree = "<group>"; };
+		45AB3B891561FCE972EEA2C253F98E8B /* EPTestLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EPTestLib.modulemap; sourceTree = "<group>"; };
 		4ABD9F54297FF27309F1F8A34F99417C /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
-		4B2E7EC3F2452D11DA7FC57011B198CB /* Pods_EPTestLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EPTestLib.framework; path = "Pods-EPTestLib.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B2E7EC3F2452D11DA7FC57011B198CB /* Pods_EPTestLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EPTestLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C5CBD032743A6E7663BDDE26E3D1286 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		4D3E0E1E34DD4394C6023B622C262222 /* Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.debug.xcconfig; sourceTree = "<group>"; };
-		51A5C1ED5B713ECE4A15FD1D68375F4A /* EPTestLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EPTestLib-prefix.pch"; sourceTree = "<group>"; };
 		51BB5063650D66E661FD979273F90078 /* MultipartUpload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartUpload.swift; path = Source/MultipartUpload.swift; sourceTree = "<group>"; };
 		51D45A2AF061C99B2355F19EC47243D9 /* Protected.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protected.swift; path = Source/Protected.swift; sourceTree = "<group>"; };
 		55ACD69971E6E47CF8C007B6F277182B /* Pods-EPTestLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EPTestLib.debug.xcconfig"; sourceTree = "<group>"; };
 		5A51515830AB9FE94E01DF6F48146153 /* StringEncoding+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "StringEncoding+Alamofire.swift"; path = "Source/StringEncoding+Alamofire.swift"; sourceTree = "<group>"; };
 		5BEF4837C47DFB74B73C8B82A591E94C /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
-		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		61F2B90B6F80D8F30747B3E178F5528F /* URLEncodedFormEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLEncodedFormEncoder.swift; path = Source/URLEncodedFormEncoder.swift; sourceTree = "<group>"; };
 		673CB7AF23C7E1475678C8CCC286CF41 /* Result+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Result+Alamofire.swift"; path = "Source/Result+Alamofire.swift"; sourceTree = "<group>"; };
-		69DDFB1E8270E9E5929C7CD3DDA76329 /* EPTestLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EPTestLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		6EC784AE6103A06001531F6994BD5479 /* EPTestLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EPTestLib-Info.plist"; sourceTree = "<group>"; };
-		711B211845396DA22C7E9D9B8958E5A9 /* EPTestLibHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EPTestLibHeader.swift; path = Code/EPTestLibHeader.swift; sourceTree = "<group>"; };
 		7197951AB8559109A9F40B71A85C843E /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
 		79BFAE4F0928F95479DE70C637654FC5 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
 		79EB40D0E4136A2EBA646F9A9D0DA652 /* RedirectHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RedirectHandler.swift; path = Source/RedirectHandler.swift; sourceTree = "<group>"; };
-		7C21FA3CA7F6A339E3F9DF7D4401C66D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		845043F6DD76EF451A61A8C4EEB3BF6C /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
 		84B14ACFFB6A91762B582B46A3466A3F /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
 		876F4F5D5DA538F51C4D4F27C9F64377 /* OperationQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OperationQueue+Alamofire.swift"; path = "Source/OperationQueue+Alamofire.swift"; sourceTree = "<group>"; };
@@ -118,27 +114,31 @@
 		998E57E5CB536D68D4A97BC1B56E62B8 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
 		9C1741D7ACD43E5D0E9DBE557F396581 /* RequestInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestInterceptor.swift; path = Source/RequestInterceptor.swift; sourceTree = "<group>"; };
 		9C44EFF4AE1CC95C361F6A007EDBD6E7 /* RetryPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RetryPolicy.swift; path = Source/RetryPolicy.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1BF1F94A156275ADAE8A93680337D25 /* EPTestLibHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EPTestLibHeader.swift; path = Code/EPTestLibHeader.swift; sourceTree = "<group>"; };
 		A4153404C4C0A47E701390CEDAB4A093 /* Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.release.xcconfig; sourceTree = "<group>"; };
 		A6F2B77F50C8E86FDD27C5A573013C07 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		A92179DC53A5B0EBDC21260DE7BD6419 /* EPTestLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EPTestLib-umbrella.h"; sourceTree = "<group>"; };
 		B0EBFC4256A48F45E26B860D38479E52 /* Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Combine.swift; path = Source/Combine.swift; sourceTree = "<group>"; };
 		B350927DD514AD2AE126F3F6260E9D20 /* Pods-EPTestLib-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EPTestLib-acknowledgements.plist"; sourceTree = "<group>"; };
 		B4B8687B00F57762F34D3282826817C5 /* RequestTaskMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestTaskMap.swift; path = Source/RequestTaskMap.swift; sourceTree = "<group>"; };
 		B5DA36ADD8B0E94CE139C28448821E13 /* AuthenticationInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationInterceptor.swift; path = Source/AuthenticationInterceptor.swift; sourceTree = "<group>"; };
+		BA9152F8FDC244A293121C376B94A469 /* EPTestLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EPTestLib-Info.plist"; sourceTree = "<group>"; };
 		BADBA01BB43141BBF975BC18FBFD1A85 /* Pods-EPTestLib-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EPTestLib-frameworks.sh"; sourceTree = "<group>"; };
-		BCBD75CA162A4EC444CB0F99C766EE30 /* EPTestLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EPTestLib.framework; path = EPTestLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAF925F60A7BBA981793E13F6F988B4D /* EPTestLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = EPTestLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BCBD75CA162A4EC444CB0F99C766EE30 /* EPTestLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EPTestLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCC350EEADBAF761D20138C94C4A0086 /* URLConvertible+URLRequestConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLConvertible+URLRequestConvertible.swift"; path = "Source/URLConvertible+URLRequestConvertible.swift"; sourceTree = "<group>"; };
-		D02F0D5C608DD9E824709E34BB6A007C /* EPTestLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EPTestLib.debug.xcconfig; sourceTree = "<group>"; };
 		D26220434118FCFC30E4850800AC3068 /* ParameterEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoder.swift; path = Source/ParameterEncoder.swift; sourceTree = "<group>"; };
 		D491FABA018055109E8F0208BB750B8D /* Pods-EPTestLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EPTestLib.release.xcconfig"; sourceTree = "<group>"; };
+		D85779111B277CE28EF7DFDF09AE22F0 /* EPTestLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EPTestLib-dummy.m"; sourceTree = "<group>"; };
 		DA4D233027C8491F55B2473FCDA12389 /* CachedResponseHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CachedResponseHandler.swift; path = Source/CachedResponseHandler.swift; sourceTree = "<group>"; };
+		DF2D7D051C8EB0AD7C6838A754C0352E /* EPTestLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EPTestLib.debug.xcconfig; sourceTree = "<group>"; };
 		DFC11D87B8E53578044EA373E7DE6642 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
-		E0C143EF10FFEFAE4AC48649AD43EFB4 /* EPTestLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EPTestLib.release.xcconfig; sourceTree = "<group>"; };
 		EA9858CC0ED645711DA55F67737A6A4D /* Pods-EPTestLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EPTestLib.modulemap"; sourceTree = "<group>"; };
 		F43DFB0A067881554C0CF2E83093E1D6 /* AlamofireExtended.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlamofireExtended.swift; path = Source/AlamofireExtended.swift; sourceTree = "<group>"; };
 		F71BBCEF1586B8C48F6C090283FD70AA /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
+		F83DF0C47B6B97B6AA4D22689C6D46C5 /* EPTestLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EPTestLib-prefix.pch"; sourceTree = "<group>"; };
 		FA24B13480173106997D3F6538CDE3CD /* ServerTrustEvaluation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustEvaluation.swift; path = Source/ServerTrustEvaluation.swift; sourceTree = "<group>"; };
-		FE17F610C06511D4A8B7706E094ED6AB /* EPTestLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EPTestLib-dummy.m"; sourceTree = "<group>"; };
 		FF72312136F76CCB5AC50BCDD37ED4A2 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -211,15 +211,15 @@
 			path = "../Target Support Files/Alamofire";
 			sourceTree = "<group>";
 		};
-		662F4DB6782E8286B878AF0F54BC275A /* EPTestLib */ = {
+		6606192D197BBFCBECA96E772AE89829 /* EPTestLib */ = {
 			isa = PBXGroup;
 			children = (
-				711B211845396DA22C7E9D9B8958E5A9 /* EPTestLibHeader.swift */,
-				A3C83D0D7CBB6348A1DE8ED50386B07A /* Pod */,
-				F52079D7749F3C7C5285B85F89E9582C /* Support Files */,
+				A1BF1F94A156275ADAE8A93680337D25 /* EPTestLibHeader.swift */,
+				BF1410646798DCE6CAAEDC7BDCBCD34A /* Pod */,
+				DA72767CC3D9DAA4F3AF7F2F6B6F8C8C /* Support Files */,
 			);
 			name = EPTestLib;
-			path = ../Lib;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		6FF97FACCA57A9A7BC9912B94BE14E47 /* Alamofire */ = {
@@ -262,14 +262,13 @@
 				20097F794E1A1791AB97EBE230264E61 /* Validation.swift */,
 				5A6F22EC0F5633257B85B6E660A2165F /* Support Files */,
 			);
-			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
-		7137EB9633180A8FACE1A9DF707384E6 /* Development Pods */ = {
+		9645C61465E443245A5B41B2B47F4CA2 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				662F4DB6782E8286B878AF0F54BC275A /* EPTestLib */,
+				6606192D197BBFCBECA96E772AE89829 /* EPTestLib */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -284,11 +283,11 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A3C83D0D7CBB6348A1DE8ED50386B07A /* Pod */ = {
+		BF1410646798DCE6CAAEDC7BDCBCD34A /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				69DDFB1E8270E9E5929C7CD3DDA76329 /* EPTestLib.podspec */,
-				7C21FA3CA7F6A339E3F9DF7D4401C66D /* LICENSE */,
+				BAF925F60A7BBA981793E13F6F988B4D /* EPTestLib.podspec */,
+				4C5CBD032743A6E7663BDDE26E3D1286 /* LICENSE */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -297,7 +296,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				7137EB9633180A8FACE1A9DF707384E6 /* Development Pods */,
+				9645C61465E443245A5B41B2B47F4CA2 /* Development Pods */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				D6535AE6278B88B90F3A376D1347504F /* Pods */,
 				98E1B255CF2887A6B025854D53143F2C /* Products */,
@@ -321,6 +320,21 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		DA72767CC3D9DAA4F3AF7F2F6B6F8C8C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				45AB3B891561FCE972EEA2C253F98E8B /* EPTestLib.modulemap */,
+				D85779111B277CE28EF7DFDF09AE22F0 /* EPTestLib-dummy.m */,
+				BA9152F8FDC244A293121C376B94A469 /* EPTestLib-Info.plist */,
+				F83DF0C47B6B97B6AA4D22689C6D46C5 /* EPTestLib-prefix.pch */,
+				A92179DC53A5B0EBDC21260DE7BD6419 /* EPTestLib-umbrella.h */,
+				DF2D7D051C8EB0AD7C6838A754C0352E /* EPTestLib.debug.xcconfig */,
+				330BE6F5E20C88D9EB05B940AD3E1144 /* EPTestLib.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/EPTestLib";
+			sourceTree = "<group>";
+		};
 		E34DCC8E2CF86B8D72232914781A840D /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -328,21 +342,6 @@
 				222DAEF0D819F359AFCFF3D4F927E8A7 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		F52079D7749F3C7C5285B85F89E9582C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				426EEB68E95908B8A0A9AC5D2425FE1C /* EPTestLib.modulemap */,
-				FE17F610C06511D4A8B7706E094ED6AB /* EPTestLib-dummy.m */,
-				6EC784AE6103A06001531F6994BD5479 /* EPTestLib-Info.plist */,
-				51A5C1ED5B713ECE4A15FD1D68375F4A /* EPTestLib-prefix.pch */,
-				483AF4A6FC41E5164B1B0817408D8687 /* EPTestLib-umbrella.h */,
-				D02F0D5C608DD9E824709E34BB6A007C /* EPTestLib.debug.xcconfig */,
-				E0C143EF10FFEFAE4AC48649AD43EFB4 /* EPTestLib.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Pods/Target Support Files/EPTestLib";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -565,7 +564,7 @@
 /* Begin XCBuildConfiguration section */
 		10F5297D1C2ACC57203A82EF7DDAE344 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E0C143EF10FFEFAE4AC48649AD43EFB4 /* EPTestLib.release.xcconfig */;
+			baseConfigurationReference = 330BE6F5E20C88D9EB05B940AD3E1144 /* EPTestLib.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -585,6 +584,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/EPTestLib/EPTestLib.modulemap";
 				PRODUCT_MODULE_NAME = EPTestLib;
 				PRODUCT_NAME = EPTestLib;
@@ -702,7 +702,7 @@
 		};
 		53C0F38CAEB07891A4CE18272D0952E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D02F0D5C608DD9E824709E34BB6A007C /* EPTestLib.debug.xcconfig */;
+			baseConfigurationReference = DF2D7D051C8EB0AD7C6838A754C0352E /* EPTestLib.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -722,6 +722,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/EPTestLib/EPTestLib.modulemap";
 				PRODUCT_MODULE_NAME = EPTestLib;
 				PRODUCT_NAME = EPTestLib;

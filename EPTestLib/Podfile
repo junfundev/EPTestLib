@@ -7,6 +7,6 @@ use_frameworks!
 target 'EPTestLib' do
     pod 'Alamofire'
     
-    pod 'EPTestLib', :path =>'Lib/'
+    pod 'EPTestLib', :path =>'./'
 
 end
