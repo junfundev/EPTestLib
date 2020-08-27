@@ -1,0 +1,25 @@
+{
+  "name": "EPTestLib",
+  "version": "0.0.1",
+  "summary": "name",
+  "description": "name--",
+  "homepage": "https://github.com/",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "author": "test@163.com"
+  },
+  "source": {
+    "git": "https://github.com/",
+    "tag": "0.0.1"
+  },
+  "requires_arc": true,
+  "platforms": {
+    "ios": "8.0"
+  },
+  "swift_versions": "5.0",
+  "source_files": "Code/**/*",
+  "swift_version": "5.0"
+}

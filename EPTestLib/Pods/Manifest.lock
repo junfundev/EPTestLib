@@ -1,0 +1,23 @@
+PODS:
+  - Alamofire (5.2.2)
+  - EPTestLib (0.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - EPTestLib (from `Lib/`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+
+EXTERNAL SOURCES:
+  EPTestLib:
+    :path: Lib/
+
+SPEC CHECKSUMS:
+  Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
+  EPTestLib: 9a9ffbb86f247a1bae18ae18f8f7a703a6f4e4a7
+
+PODFILE CHECKSUM: 300bc9e9a4cb1cf44dc87b62047ed44685b47058
+
+COCOAPODS: 1.9.3

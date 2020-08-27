@@ -1,0 +1,6 @@
+framework module EPTestLib {
+  umbrella header "EPTestLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
